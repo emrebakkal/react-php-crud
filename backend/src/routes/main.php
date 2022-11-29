@@ -126,7 +126,7 @@ $app->patch('/complete/{id}', function(Request $request, Response $response, $ar
     }
 });
 
-// Route for updating todos is_completed variable to 1
+// Route for updating todos is_completed variable to 0
 $app->patch('/uncomplete/{id}', function(Request $request, Response $response, $args) {
 
     global $db;
